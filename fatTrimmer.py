@@ -80,7 +80,7 @@ def run(button, text):
 
         offset += 50
 
-    text.config(state="normal")
+
     text.insert("end", f"Fetched {len(liked_uris)} liked songs.")
     text.see("end")
     text.config(state="disabled")
