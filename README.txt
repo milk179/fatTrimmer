@@ -33,4 +33,4 @@ Andre Morgan
 
             setx SPOTIPY_CLIENT_ID "your-spotify-client-id"
             setx SPOTIPY_CLIENT_SECRET "your-spotify-client-secret"
-            setx SPOTIPY_REDIRECT_URI "http://localhost:8888/callback"
+            setx SPOTIPY_REDIRECT_URI "http://127.0.0.1:8888/callback"
