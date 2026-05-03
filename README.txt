@@ -31,6 +31,6 @@ Andre Morgan
 
         Instead, if using Windows open Powershell and run
 
-            $env:SPOTIPY_CLIENT_ID="your-spotify-client-id"
-            $env:SPOTIPY_CLIENT_SECRET="your-spotify-client-secret"
-            $env:SPOTIPY_REDIRECT_URI="your-app-redirect-url"
+            setx SPOTIPY_CLIENT_ID "your-spotify-client-id"
+            setx SPOTIPY_CLIENT_SECRET "your-spotify-client-secret"
+            setx SPOTIPY_REDIRECT_URI "http://localhost:8888/callback"
